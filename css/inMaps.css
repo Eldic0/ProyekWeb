@@ -1,0 +1,282 @@
+body{
+    background-color: rgb(13,21,37);
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+}
+
+#h1laforant{
+  text-align: center;
+}
+
+#back{
+  align-items: flex-start;
+}
+
+#backk{
+  background-color: rgb(165, 36, 36);
+  border-radius: 5px;
+  color: white;
+  padding-top: 5px;
+  font-weight: 600;
+  margin-left: 0;
+}
+
+#backk:hover{
+  background-color: white;
+  transition: 2s;
+  border-radius: 20px;
+  color: rgb(165, 36, 36);
+}
+
+.bindMaps {
+    position: relative;
+    width: 50%;
+    margin-left: 25%;
+  }
+  
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+  
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(13,21,37);
+}
+  
+.bindMaps:hover .overlay {
+    opacity: 0.5;
+  }
+  
+.textBind {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-left: 1.5%;
+  }
+
+.ascentMaps {
+    position: relative;
+    width: 50%;
+    margin-left: 25%;
+  }
+  
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+  
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(13,21,37);
+}
+  
+.ascentMaps:hover .overlay {
+    opacity: 0.5;
+  }
+  
+.textAscent {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-left: 1.5%;
+  }
+
+.breezeMaps {
+    position: relative;
+    width: 50%;
+    margin-left: 25%;
+  }
+  
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+  
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(13,21,37);
+}
+  
+.breezeMaps:hover .overlay {
+    opacity: 0.5;
+  }
+  
+.textBreeze {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-left: 1.5%;
+  }
+
+.havenMaps {
+    position: relative;
+    width: 50%;
+    margin-left: 25%;
+  }
+  
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+  
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(13,21,37);
+}
+  
+.havenMaps:hover .overlay {
+    opacity: 0.5;
+  }
+  
+.textHaven {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-left: 1.5%;
+  }
+
+.iceboxMaps {
+    position: relative;
+    width: 50%;
+    margin-left: 25%;
+  }
+  
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+  
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(13,21,37);
+}
+  
+.iceboxMaps:hover .overlay {
+    opacity: 0.5;
+  }
+  
+.textIcebox {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-left: 1.5%;
+  }
+
+.splitMaps {
+    position: relative;
+    width: 50%;
+    margin-left: 25%;
+  }
+  
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+  
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(13,21,37);
+}
+  
+.splitMaps:hover .overlay {
+    opacity: 0.5;
+  }
+  
+.textSplit {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-left: 1.5%;
+  }

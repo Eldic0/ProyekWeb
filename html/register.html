@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/registerStyle.css">
+    <script src="../js/regis.js"></script>
+    <link rel="shortcut icon" href="../asset/Logo.jpg" type="image/x-icon">
+    <title>Registration</title>
+</head>
+
+<body>
+    <br>
+   <a id="back" href="home.html">
+       <button id="back">Back to Home Page> </button> 
+    </a> 
+
+    <h1 id="regis">Registration</h1>
+
+    <div class="container">
+
+        <form onsubmit="return submitData()">
+
+            <div id="container">
+                <label for="name">Username:</label>
+                <input type="text" name="name" class="input" id="name">
+            </div>
+            <div id="container">
+                <label for="email">Email:</label>
+                <input type="email" name="email" class="input" id="email">
+            </div>
+            <div id="container">
+                <label for="password">Password:</label>
+                <input type="password" name="password" class="input" id="password">
+            </div>
+            <div id="container">
+                Gender: <br>
+                <input type="radio" name="gender" class="tombol" id="gender" value="male">
+                <label for="male">Male</label> <br>
+                <input type="radio" name="gender" class="tombol" id="gender" value="female">
+                <label for="female">Female</label> <br>
+            </div>
+            <br>
+            <div id="container">
+                <label for="country">Nationality:</label>
+                <select name="country" id="country">
+                        <option value="">Select Country</option>
+                        <option value="Indonesia">Indonesia</option>
+                        <option value="Malaysia">Malaysia</option>
+                        <option value="Singapore">Singapore</option>
+                        <option value="Thailand">Thailand</option>
+                        <option value="Vietnam">Vietnam</option>
+                        <option value="Taiwan">Taiwan</option>
+                        <option value="Brunei">Brunei</option>
+                        <option value="Laos">Laos</option>
+                    </select>
+            </div>
+            <div id="container">
+                <label for="date">Date:</label>
+                <input id="date"  type="date" name="date" value="date" class="input" >
+            </div>
+            <div id="container">
+                <input type="checkbox" name="agree" class="tombol" id="agree">
+                <label for="agree">Accept terms & Condition</label>
+            </div>
+            <br>
+
+            <div>
+                <a href="../html/reg.html">
+                    <button onclick="submitData()" id="btn-submit">Submit</button>
+                </a>
+            </div>
+
+            <p id="error" style="color: red;"></p>
+
+    </div>
+
+    </form>
+
+</body>
+
+</html>

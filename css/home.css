@@ -1,0 +1,455 @@
+*{
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-color: rgb(13, 21, 37);
+}
+
+
+.background {
+    background-image: url(../page/homebg.png);
+    transition-duration: 0.8s;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.nav-bar {
+    background-color:rgb(13, 21, 37);
+}
+ 
+.navmenu {
+    display: flex;
+    justify-content: space-between;
+}
+.link,
+.dropdown-item {
+    font-size: x-large;
+    margin-top: 0px;
+    font-weight: 1000;
+    text-decoration: none;
+    text-align: center;
+    color: white; ;
+    padding: 20px;
+    display: block;
+    transition-duration: 0.4s;
+}
+
+.link{
+    border-radius: 15px;
+    background-color: rgb(194, 7, 7);
+    transition-duration: 0.8s;
+
+}
+
+.link:hover{
+    background-color: rgb(13, 21, 37);
+}
+
+.dropdown-item{
+    border-radius: 15px;
+}
+
+.dropdown-item:hover{
+    background-color: white;
+    color:rgb(13, 21, 37);
+    transition-duration: 0.4s;
+}
+.item-dropdown{
+    position: relative;
+    display: block;
+    background-color: rgb(13, 21, 37);
+}
+ 
+.item-dropdown:hover .dropdown-item{
+    position: absolute;
+    display: none;
+}
+
+.dropdown {
+    position: relative;
+    display: block;
+}
+ 
+.dropdown-menu {
+    position: absolute;
+    background-color: rgb(13, 21, 37);
+    display: none;
+    flex-direction: row;
+}
+ 
+.dropdown:hover .dropdown-menu {
+    display: block;
+
+}
+
+.bodys{
+    background-image: url(../asset/homebg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    width: 100%;
+}
+
+.bodys-title{
+    padding-top: 200px;
+    margin-bottom: 10px;
+}
+
+.bodys-desc{
+    margin-bottom: 30px;   
+}
+
+#btn-register {
+    background-color: rgb(165, 36, 36);
+    border-style: double;
+    border-radius: 5px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left:170px;
+}
+
+#btn-register:hover {
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: 2s;
+    border-radius: 20px;
+    color: rgb(165, 36, 36);
+}
+
+
+h1{
+    color:white;
+    margin-left: 135px;
+    font-size:1.3cm;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+}
+
+h4{
+    color: grey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:0.35cm;
+    margin-left: 105px;
+
+}
+
+#konten-1{
+    height: 750px;
+}
+
+#h1we {
+    color: aliceblue;
+    text-decoration: underline;
+    text-decoration-color: gray;
+    font-size: 55px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 8%;
+    margin-bottom: 4%;
+    padding-top: 110px;
+}
+
+#h4we {
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 8%;
+    margin-bottom: 30px;
+}
+
+#pwe {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    margin-left: 8%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#pemain {
+    width: 650px;
+    height: 400px;
+    padding: 30px;
+    position: absolute;
+    right: 30%;
+    left: 45%;
+    top: 1000px;
+    border-style: dashed;
+    border-color: red;
+    border-width: 5px;
+    opacity: 0.6;
+    transition-duration: 0.5s;
+}
+
+#pemain:hover {
+    width: 660px;
+    height: 410px;
+    padding: 30px;
+    border-color: grey;
+    border-width: 4px;
+    transition: 2s;
+    opacity: 1;
+}
+
+#konten-2{
+    background-color:rgb(18, 28, 40);
+    height: 800px;
+}
+
+#h1age {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 55px;
+    text-decoration: underline;
+    text-decoration-color: gray;
+    color: whitesmoke;
+    margin-left: 50%;
+    margin-bottom: 3%;
+    margin-top: 7%;
+    padding-top: 170px;
+}
+
+#h4age {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-size-adjust: 5px;
+    color: red;
+    margin-left: 50%;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+}
+
+#ppage {
+    color: white;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 50%;
+    padding-bottom: 14px;
+}
+
+#gambar-agent {
+    height: 550px;
+    width: 450px;
+    padding: 30px;
+    position: absolute;
+    border-style: dashed;
+    border-color: rgb(82, 10, 10);
+    border-width: 5px;
+    margin-left: 80px;
+    margin-top: 150px;
+}
+
+#btn-agent {
+    background-color: rgb(165, 36, 36);
+    border-style: double;
+    border-radius: 5px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 50%;
+}
+
+#btn-agent:hover {
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: 2s;
+    border-radius: 20px;
+    color: rgb(165, 36, 36);;
+}
+
+#gambar-agent:hover {
+    height: 570px;
+    width: 460px;
+    padding: 30px;
+    border-color: grey;
+    transition: 2s;
+}
+
+#konten-3{
+    height: 750px;
+}
+
+#h1ma{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+    text-decoration-color: grey;
+    font-size: 80px;
+    padding-top: 30px;
+}
+
+#h4ma{
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:x-large;
+    padding-top: 45px;
+    padding-left: 28px;
+}
+
+#pma{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    padding-left: 133px;
+    padding-top: 35px;  
+}
+
+#bindImg{
+    height: 200px;
+    width: 375px;
+    position: absolute;
+    top: 2790px;
+    left: 43%;
+    border-left: double;
+    border-bottom: double ;
+    border-color: red;
+    border-width: 6px;
+    opacity: 0.5;
+    transition-duration: 0.5s;
+}
+
+#bindImg:hover{
+    opacity: 1.0;
+}
+
+#havenImg{
+    height: 200px;
+    width: 375px;
+    position: absolute;
+    top: 2560px;
+    border-top: double;
+    border-right: double;
+    border-color: red;
+    border-width: 6px;
+    opacity: 0.5;
+    transition-duration: 0.5s;
+    margin-left: 800px;
+}
+
+#havenImg:hover{
+    opacity: 1.0;
+}
+#viewmaps{
+    color: white;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: x-large;
+}
+
+
+#btn-maps{
+    margin-left: 50px;
+    background-color:rgb(165, 36, 36);
+    color: white;
+    border-radius: 5px;
+    border-style: double;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+    margin-left: 135px;
+    margin-top: 20px;
+}
+
+#btn-maps:hover{
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: 2s;
+    border-radius: 20px;
+    color: rgb(165, 36, 36);;
+}
+
+#btn-sysreq{
+    background-color:rgb(165, 36, 36);
+    color: white;
+    border-radius: 5px;
+    border-style: double;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 38%;
+    margin-top: 250px;
+    margin-bottom: 40px;
+    text-decoration: none;
+    font-size:30px;
+    transition-duration: 2s;
+}
+
+#btn-sysreq:hover{
+    background-color: white;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: 2s;
+    border-radius: 20px;
+    color: rgb(165, 36, 36);
+    font-size: 30px;
+}
+
+#footer{
+    color: white;
+    height: 200px;
+    text-align: center;
+    font-size: large;
+    background-color: black;
+}
+
+#follow{
+    padding-top: 40px;
+}
+
+#fbp{
+    width: 50px;
+    height: 50px;
+}
+
+#fbp:hover{
+    opacity: 0.5;
+}
+
+#sosmed{
+    display: flex;
+    justify-content: center;
+}
+
+#igb{
+    width: 50px;
+    height: 50px;
+}
+
+#igb:hover{
+    opacity: 0.5;
+}
+
+#twitb{
+    width: 50px;
+    height: 50px;
+}
+
+#twitb:hover{
+    opacity: 0.5;
+}
+
+#tubeb{
+    width: 50px;
+    height: 50px;
+}
+
+#tubeb:hover{
+    opacity: 0.5;
+}

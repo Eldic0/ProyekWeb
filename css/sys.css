@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(13, 21, 37);
+}
+
+h1{ 
+    text-align: center;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    text-decoration-color: grey;
+}
+
+#omen{
+    padding-left: 100px;
+}
+
+.omen{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#back{
+    background-color: rgb(165, 36, 36);
+    border-radius: 5px;
+    color: white;
+    padding-top: 5px;
+    font-weight: 600;
+}
+
+#back:hover{
+    background-color: white;
+    transition: 2s;
+    border-radius: 20px;
+    color: rgb(165, 36, 36);
+}
+
+.HARDWARE-REQUIREMENTS{
+    position: absolute;
+    font-size: xx-large;
+    text-align: center;
+    border-radius: 10px;
+    background-color : black;
+    background-size: 40px;
+    opacity: 0.7;
+    top: 218px;
+    left: 210px;
+    width: 550px;
+}
+
+.PERFORMANCE{
+    position: absolute;
+    font-size: xx-large;
+    text-align: center;
+    border-radius: 10px;
+    background-color : black;
+    opacity: 0.7;
+    top: 218px;
+    right: 210px;
+    width: 525px;
+}
